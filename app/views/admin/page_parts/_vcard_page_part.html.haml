@@ -1,0 +1,37 @@
+.part.vcard
+  .name
+    %label{:for => "page_vcard_attributes_org"}= t('vcard.organisation')
+    = text_field_tag "page[vcard_attributes][org]", @page.try(:vcard).try(:org)
+    %br
+    %label{:for => "page_vcard_attributes_fn"}= t('vcard.first_name')
+    = text_field_tag "page[vcard_attributes][fn]", @page.try(:vcard).try(:fn)
+    %br
+    %label{:for => "page_vcard_attributes_n"}= t('vcard.name')
+    = text_field_tag "page[vcard_attributes][n]", @page.try(:vcard).try(:n)
+    %br
+
+  .address
+    %label{:for => "page_vcard_attributes_street_address"}= t('vcard.street_address')
+    = text_field_tag "page[vcard_attributes][street_address]", @page.try(:vcard).try(:street_address)
+    %br
+    %label{:for => "page_vcard_attributes_postal_code"}= t('vcard.postal_code')
+    = text_field_tag "page[vcard_attributes][postal_code]", @page.try(:vcard).try(:postal_code)
+    %br
+    %label{:for => "page_vcard_attributes_locality"}= t('vcard.locality')
+    = text_field_tag "page[vcard_attributes][locality]", @page.try(:vcard).try(:locality)
+
+  .telephone
+    %label{:for => "page_vcard_attributes_tel"}= t('vcard.telephone')
+    = text_field_tag "page[vcard_attributes][tel]", @page.try(:vcard).try(:tel)
+    %br
+    %label{:for => "page_vcard_attributes_fax"}= t('vcard.fax')
+    = text_field_tag "page[vcard_attributes][fax]", @page.try(:vcard).try(:fax)
+
+  .online
+    %label{:for => "page_vcard_attributes_email"}= t('vcard.email')
+    = text_field_tag "page[vcard_attributes][email]", @page.try(:vcard).try(:email)
+    %br
+    %label{:for => "page_vcard_attributes_url"}= t('vcard.url')
+    = text_field_tag "page[vcard_attributes][url]", @page.try(:vcard).try(:url)
+    
+    

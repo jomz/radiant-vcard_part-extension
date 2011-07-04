@@ -1,0 +1,13 @@
+---
+en:
+  vcard:
+    email: Email
+    fax: Fax
+    first_name: First name
+    locality: Locality
+    name: Name
+    organisation: Organisation
+    postal_code: Postal code
+    street_address: Street address
+    telephone: Telephone
+    url: Website URL

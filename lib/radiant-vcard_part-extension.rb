@@ -1,0 +1,2 @@
+module RadiantVcardPartExtension
+end

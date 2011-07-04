@@ -1,0 +1,13 @@
+---
+nl:
+  vcard:
+    email: Email
+    fax: Fax
+    first_name: Voornaam
+    locality: Gemeente
+    name: Naam
+    organisation: Organisatie
+    postal_code: Postcode
+    street_address: Straat
+    telephone: Telefoon
+    url: Website URL

@@ -1,0 +1,11 @@
+Radiant Vcard Part Extension
+----------------------------
+
+This extension builds on Josh French's PageParts extension.
+It adds a new page part type "VcardPagePart", which aids in making valid hCard-formatted markup.
+
+## Still to do
+
+* Revise markup and/or CSS for backend; make things look better.
+* Revise attributes; are these really all of the most-used fields when displaying addresses?
+* Make vcard fields dynamic? I.e. so someone can add more than 1 URL or telephone number.
